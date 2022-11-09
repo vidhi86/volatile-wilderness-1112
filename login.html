@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page </title>
+    <style>
+        #container{
+            width: 400px;
+            margin: auto;
+        }
+        #container > div{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #container >input{
+            margin-bottom: 60px;
+            width: 400px;
+            height: 40px;
+            margin-top: 10px;
+        }
+        h2{
+            margin-bottom: 50px;
+        }
+        img{
+            height: 30px;
+            width: 30px;
+            margin-right: 50px;
+        }
+        button{
+           font-size: 20px;
+           padding: 10px;
+           color: gray;
+           border: 0;
+           border-radius: 40px;
+           background-color: white;
+           width: 400px;
+           box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+        #login{
+            background-color: rgb(45, 151, 226);
+            color: white;
+            border: 0;
+            border-radius: 0;
+            width: 400px;
+           
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+        h5,h3{
+            color: rgb(55, 163, 240);;
+        }
+        label{
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        p{
+            color: blue;
+            text-align: right;
+        }
+        h3{
+            text-align: center;
+            margin-bottom: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+       <div>
+      <h2>Login</h2>
+      <h5>Register for free</h5>
+    </div>
+    
+    <label>Email ID / Username</label><br>
+    <input type="text"placeholder="Enter your active email ID /
+    username"><br>
+    <label>Password</label><br>
+    <input type="text" placeholder="Enter your password">
+    <p>Forgot password?</p>
+    <button id="login">Login</button>
+    <h3>User OTP to Login</h3>
+    <button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png">Sign in with Google</button>
+    </div>
+    
+</body>
+</html>
