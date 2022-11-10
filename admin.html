@@ -5,14 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
+    <style>
+        *{
+            font: ;
+        }
+      #container{
+        margin: auto;
+        width: 400px;
+        padding: 20px;
+      }
+      input{
+        width: 400px;
+        height: 50px;
+        margin-bottom: 20px;
+        border: 2px solid rgb(198, 196, 196);
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px;
+      }
+      button{
+        width: 400px;
+        height: 40px;
+        background-color:#FFD600 ;
+        border:0;
+        border-radius: 40px;
+        color: white;
+        font-size: 25px;
+      }
+    </style>
 </head>
 <body>
-    <h1>Admin login</h1>
-    <input type="text" placeholder="enter your name">
-    <input type="text" placeholder="enter email address">
-    <input type="text" placeholder="enter admin ID">
-    <input type="password" placeholder="enter password">
-    <input type="number" placeholder="enter mobile number">
-    <button>Login</button>
+    <form id ="container">
+         <h1>Admin login</h1>
+         <label>Name</label>
+        <input type="text" placeholder="enter your name">
+        <label>Email ID</label>
+        <input type="text" placeholder="enter email address">
+        <label>Admin id</label>
+        <input type="text" placeholder="enter admin ID">
+        <label>Password</label>
+        <input type="password" placeholder="enter password">
+        <label>Mobile Number</label>
+        <input type="number" placeholder="enter mobile number">
+        <button>Login</button>
+    </form>
+   
 </body>
 </html>

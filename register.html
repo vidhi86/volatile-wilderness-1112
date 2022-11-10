@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
     <style>
+        
         #register{
             width: 600px;
             margin: auto;
+            background-color: white;
+            
         }
         input{
             width: 600px;
             margin: 0px;
             height: 40px;
             border-radius: 5px;
+            border: 1px solid rgb(201, 199, 199);
+            font-size: 20px;
+            padding:10px;
+            
         }
         #register > p{
             margin: 0;
@@ -24,13 +31,59 @@
             padding: 0;
             margin-top: 50px;
         }
+        #status{
+           border-radius: 20px 10px 20px 10px;
+           background-color: white;
+           border: 1px solid rgb(201, 199, 199);
+           
+        }
         
+        #status > div >img {
+            width:40px;
+            
+        }
+        .resume{
+            width: 200px;
+            height: 40px;
+            border-radius: 40px;
+            background-color: #FF6F00;
+            color: white;
+            font-size: 17px;
+            font-weight: bolder;
+            border: 0;
+            margin: 10px;
+        }
+        h3{
+            color: #FFD600;;
+        }
+        p{
+            color: grey;
+        }
+        #now{
+            width: 250px;
+            height: 50px;
+            border-radius: 40px;
+            background-color: #FFD600;
+            color: white;
+            border: 0;
+            font-size: 20px;
+            font-weight: bolder;
+            margin: 20px;
+        }
+        #whatsapp{
+           padding-top: 20px;
+           padding-bottom: 20px;
+        }
+    
+        a{
+            color: #FFD600;
+        }
     </style>
 </head>
 <body>
     <div id="nav">
         <img src=""> <!--add logo--> 
-        <p>Already Registered? <a>Login</a>here</p>
+        <p>Already Registered? <a href="login.html">Login</a> here</p>
 
     </div>
     <div id="register">
@@ -54,24 +107,28 @@
         
         <h4>Work Status    </h4>
         <div>
-            <button>
-                <h3>I'm Experienced</h3>
+            <button id="status">
+                <div><img src="https://cdn-icons-png.flaticon.com/128/3281/3281289.png"></div>
+                <div>
+                    <h3>I'm Experienced</h3>
                 <p>I have work experience (excluding internships)</p>
+                </div>
             </button>
-            <button>
-                <h3>I'm a Fresher</h3>
-                <p>I am a student/ Haven't worked after graduation</p>
+            <button id="status">
+                <div><img src="https://cdn-icons-png.flaticon.com/128/3429/3429142.png"></div>
+                <div><h3>I'm a Fresher</h3>
+                <p>I am a student/ Haven't worked after graduation</p></div>
             </button>
         </div>
 
         <h4>Resume    </h4>
-        <button>Upload Resume</button>
+        <button class="resume">Upload Resume</button>
         <p>Recruiters give first preference to candidates who have a resume</p>
         <!-- tick mark add in next line -->
-        <p>Send me important updates onWhatsApp</p>
-        <p>By clicking Register, you agree to the <a>Terms and Conditions</a> & <a>Privacy Policy</a> of Jobland.com</p>
+        <p id="whatsapp">Send me important updates onWhatsApp</p>
+        <p >By clicking Register, you agree to the <a href="https://www.naukri.com/termsconditions#g1">Terms and Conditions</a> & <a href="https://www.naukri.com/privacypolicy">Privacy Policy</a> of Jobland.com</p>
         
-        <button>Register Now</button>
+        <button id="now"> Register Now</button>
     </div>
 </body>
 </html>
