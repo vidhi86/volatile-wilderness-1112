@@ -1,0 +1,33 @@
+ #container{
+        margin: auto;
+        width: 400px;
+        padding: 20px;
+      }
+      input{
+        width: 400px;
+        height: 50px;
+        margin-bottom: 20px;
+        border: 2px solid rgb(198, 196, 196);
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px;
+      }
+      button{
+        width: 400px;
+        height: 40px;
+        background-color:#FFD600 ;
+        border:0;
+        border-radius: 40px;
+        color: white;
+        font-size: 25px;
+      }
+      #nav{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#nav >a >img{
+    width: 200px;
+    height: 90px;
+}
