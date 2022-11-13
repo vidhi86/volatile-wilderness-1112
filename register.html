@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>register</title>
     <link rel="stylesheet" href="./cssfiles/register.css">
+    
 </head>
 <body>
     <div id="nav">
@@ -13,23 +14,23 @@
         <p>Already Registered? <a href="login.html">Login</a> here</p>
 
     </div>
-    <div id="register">
+    <form id="register">
         <h1>
            Find a job & grow your career
         </h1>
         <h4>Full Name    </h4>
-        <input type="text"placeholder="What is your name?"><br>
+        <input id='name'type="text"placeholder="What is your name?"><br>
 
         <h4>Email ID    </h4>
-        <input type="text" placeholder="Tell us your Email ID">
+        <input id='email' type="text" placeholder="Tell us your Email ID">
         <p>We'll send you relevent job in your email </p>
 
         <h4>Password    </h4>
-        <input type="text" placeholder="Create password for your account">
+        <input id='password'type="text" placeholder="Create password for your account">
         <p>Minimum 6 characters required</p>
 
         <h4>Mobile number    </h4>
-        <input type="text" placeholder="Mobile number">
+        <input  id='mobile'type="text" placeholder="Mobile number">
         <p>Recruiters will call you on this number</p>
         
         <h4>Work Status    </h4>
@@ -55,7 +56,8 @@
         <p id="whatsapp">Send me important updates onWhatsApp</p>
         <p >By clicking Register, you agree to the <a href="https://www.naukri.com/termsconditions#g1">Terms and Conditions</a> & <a href="https://www.naukri.com/privacypolicy">Privacy Policy</a> of Jobland.com</p>
         
-        <button id="now"> Register Now</button>
-    </div>
+        <button id="now">Register Now</button>
+    </form> 
 </body>
 </html>
+<script src="./scriptFile/register.js"></script>
