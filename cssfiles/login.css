@@ -54,6 +54,10 @@
         }
         h5,h3{
             color: #FFD600;
+            
+        }
+        a{
+            text-decoration: none;
         }
         label{
             font-size: 15px;

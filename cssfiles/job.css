@@ -1,0 +1,158 @@
+#container>div>img{
+    display: block;
+    justify-content: right;
+    width: 100px;
+    float: right;
+    border-radius: 50%;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   gap: 20px;
+}
+#container >div{
+   width: 700px;
+   margin: auto;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   padding: 40px;
+}
+p{
+    font-size: 20px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#nav >a>img{
+    width: 200px;
+    height: 90px;
+}
+#nav >div:nth-child(2)>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav >div:nth-child(2)>div >div >h4{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+ #login ,#admin{
+    width:100px;
+    border-radius: 40px;
+    border: 2px solid #FFD600;
+    background-color: white;
+    height: 40px;
+    font-size: 20px;
+    color: #FFD600;
+    margin-top: 19px;
+
+}
+#register{
+    width:100px;
+    border-radius: 40px;
+    border: 0;
+    background-color: #FFD600;
+    height: 40px;
+    font-size: 20px;
+    color:white;
+}
+/* hover  */
+.subjob{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+
+}
+.subjob >a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#job:hover .subjob {
+    display: block;
+}
+.subjob >a:hover{
+    background-color: #fdee9b;
+}
+.subpos{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    
+}
+.subpos >a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#pos:hover .subpos {
+    display: block;
+}
+.subpos >a:hover{
+    background-color: #fdee9b;
+}
+.subloc{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+}
+.subloc >a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+#loc:hover .subloc {
+    display: block;
+}
+.subloc >a:hover{
+    background-color: #fdee9b;
+}
+/* left box */
+#left {
+    float: right;
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+}
+#left >div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+#sort{
+    width: 200px;
+    height: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    float: left;
+    margin-left: 40px;
+    margin-right: 30px;
+   padding: 30px;
+}
+#sort >h2{
+    color: #FFD600;
+}
+#exp ,#rate {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border: 5px solid #FFD600;
+    background-color: #FFD600;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}

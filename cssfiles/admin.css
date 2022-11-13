@@ -31,3 +31,26 @@
     width: 200px;
     height: 90px;
 }
+h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+#info {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+#info >div {
+  margin: 60px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+   background-color: #FFD600;
+}
+#info >div >h2{
+    background-color: #FFD600;
+     color: white;
+}
+#info >div >h3{
+  color:white;
+}
