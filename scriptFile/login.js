@@ -5,20 +5,21 @@ document.querySelector("#login").addEventListener('click',loginUser);
 
 function loginUser(event){
    event.preventDefault();
-   let obj = JSON.parse(localStorage.getItem("registered"));
-  console.log(obj)
+   let arr = JSON.parse(localStorage.getItem("registered"));
+  
    let email = document.querySelector("#email").value;
    let password = document.querySelector("#password").value;
    let newObj ={
       email,password
    }
-   console.log(newObj)
- if(obj.email===newObj.email && obj.password===newObj.password){
-   return window.location.href ="index.html"
    
- }
- else{
-   return alert("Wrong Credentials");
-   
- }
+   for ( let i=0;i<arr.length;i++){
+       if (arr[i].email === newObj.email && arr[i].password === newObj.password) {
+         alert("login successful")
+        return (window.location.href = "index.html");
+       } else {
+         return alert("Wrong Credentials");
+       }
+   }
+
 }

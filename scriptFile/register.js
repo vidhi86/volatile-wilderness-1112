@@ -11,13 +11,8 @@ function registerData(event){
     let password = document.querySelector('#password').value;
 
     let mobile = document.querySelector('#mobile').value;
-
-    let status;
-    let work = document.querySelector("#status");
-    work.addEventListener('click',function(){
-         status = document.querySelector("#status >div >h3").innerText;
-    })
-
+    
+    
     let registerObj ={
         name,email,password,mobile,status
     }
@@ -35,4 +30,4 @@ function registerData(event){
       
     }
     
-}
+  }
